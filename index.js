@@ -1,1 +1,1 @@
-console.log('ㅇㅇ');
+console.log('index.js imported')
