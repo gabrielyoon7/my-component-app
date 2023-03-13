@@ -1,4 +1,4 @@
-import { store } from "../../domain/store.js";
+import { store } from '../../domain/store.js';
 
 class CustomCounter extends HTMLElement {
   constructor() {
@@ -6,10 +6,11 @@ class CustomCounter extends HTMLElement {
     store.setState('counter', 0);
     this.render();
   }
+
   render() {
     this.innerHTML = `
       Counter : ${store.state.counter}
-    `
+    `;
   }
 }
 export default CustomCounter;
