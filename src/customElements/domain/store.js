@@ -9,7 +9,7 @@ const store = {
   },
   setState(prop, value) {
     this.state[prop] = value;
-  }
+  },
 };
 
 export { store };
